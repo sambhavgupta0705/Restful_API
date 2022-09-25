@@ -7,7 +7,7 @@ app.get('/',(req,res)=>{
     res.send('We are at home tab')
 })
 app.get('/posts',(req,res)=>{
-    res.send('We are on Posts');
+    res.send('We are Posts');
 
 })
 app.listen(5050);
